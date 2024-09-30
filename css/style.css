@@ -45,3 +45,13 @@ main {
 .offcanvas-body{
     overflow-y:visible;
 }
+
+
+.dropdown-item {
+    display: flex;
+    justify-content: space-between;
+
+}
+.dropdown-item > p{
+    margin-bottom: 0px;
+}

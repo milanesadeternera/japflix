@@ -69,10 +69,10 @@ function offcanvas(movieId){
 
     //dropmenu
     document.getElementsByClassName("dropdown-menu")[0].innerHTML = `
-              <li><a class="dropdown-item">Year: ${movie.release_date}</a></li>
-              <li><a class="dropdown-item">Runtime:${movie.runtime} mins</a></li>
-              <li><a class="dropdown-item">Budget: $${movie.budget}</a></li>
-              <li><a class="dropdown-item">Revenue:$${movie.revenue}</a></li>
+              <li><a class="dropdown-item"><p>Year:</p><p>${movie.release_date.split("-")[0]}</p></a></li>
+              <li><a class="dropdown-item"><p>Runtime:</p><p>${movie.runtime} mins</p></a></li>
+              <li><a class="dropdown-item"><p>Budget:</p><p>$${movie.budget}</p></a></li>
+              <li><a class="dropdown-item"><p>Revenue:</p><p>$${movie.revenue}</p></a></li>
     `;
 
     console.log(movie)
