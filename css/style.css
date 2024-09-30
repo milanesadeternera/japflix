@@ -1,0 +1,47 @@
+.img-card-fit {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+.img-cont {
+    height: 200px;
+    overflow: hidden;
+    background-color: beige;
+}
+
+.card-content{
+    height: 150px;
+    overflow: auto;
+}
+
+main {
+    min-height: calc(100vh - 100px);
+  }
+
+.checked{
+    color: orange;
+}
+
+.offcanvas-top{
+    height: fit-content;
+}
+.list-group-item{
+    background-color: #212529;
+    color: white;
+}
+#tagline{
+    font-style: italic;
+    font-weight: lighter;
+}
+.star{
+    font-size: 20px;
+    padding: 0px
+}
+
+#offcanvasMovieGenre{
+    color:gray;
+}
+.offcanvas-body{
+    overflow-y:visible;
+}
